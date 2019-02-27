@@ -1,2 +1,2 @@
 # EscapeGameProject
-Site web proposant des escape games en ligne.
+Site web proposant des escape games en ligne !

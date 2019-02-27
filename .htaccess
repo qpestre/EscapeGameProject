@@ -1,0 +1,7 @@
+ReWriteEngine On
+
+ReWriteCond %{REQUEST_FILENAME} !-f
+ReWriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*)$ index.php?url=$1 [NC,L]
+
