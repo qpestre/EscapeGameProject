@@ -5,10 +5,11 @@
 
 .headerBand 
 {
-
 	text-align: center;
-	background : red;
-
+	font-style: bold;
+	font-size: 1.5em;
+	color : brown;
+	background : lightgreen;
 }
 h1
 {

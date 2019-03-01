@@ -15,6 +15,14 @@ if (isset($url[0]) AND $url[0] == 'accueil' AND (!isset($url[1]) OR $url[1] == '
 
 	$title="Escape Game : à l'aventure";
 	$call='pages/accueil.php';
+	$footer="pages/inc/footerAccueil.php";
+}
+
+else if(isset($url[0]) AND $url[0] == 'jeu' AND (!isset($url[1]) OR $url[1] == '')) { // si on a qu un /jeu 
+
+	$title="Escape Game en cours";
+	$call='pages/jeu.php';
+	$footer="pages/inc/footer.php";
 }
 
 
@@ -22,6 +30,7 @@ else { // sinon, on ne connait pas
 
 	$title='Page introuvable : erreur 404';
 	$call='pages/404.php';
+	$footer="pages/inc/footer.php";
 }
 
 // Appel des différents éléments de la page
@@ -30,7 +39,7 @@ require_once('pages/inc/head.php');
 require_once('pages/inc/header.php');
 
 require_once($call);
-require_once('pages/inc/footer.php');
+require_once($footer);
 
 ?>
     

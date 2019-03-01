@@ -14,16 +14,22 @@
         <article class="col-6-xs col-6-sm col-6-md artAccueil">
             <img href="images/articleAccueil.jpg" /> <!-- a trouver -->
             <p>
+                <hr />
                 <br />
-                Bonjour, blablabla...<br/>
-                ehfierhfospijdoiesjfsd<br/>
-                diueudhsehdks.<br/>
+                Bonjour, <br />
+                Bienvenu dans l'antre des mystères <br/>
+                non résolus...<br/>
+                <br/>
+                Rares sont les élus qui s'en sont sortis vivants !<br/>
+                <br/>
+                Etes vous surs d'avoir assez de tripes ?<br/>
                 Etes vous prêts à signer pour ça ?<br/>
                 <br/>
+                <hr/>
 
             </p>
             <p>
-                <a href="#" class="btn btn-lg btn-warning"><span class="glyphicon glyphicon-hand-right"></span>   COMMENCER L'AVENTURE</a>
+                <a href="#" class="btn btn-lg btn-warning startButton"><span class="glyphicon glyphicon-hand-right"></span>   COMMENCER L'AVENTURE</a>
             </p>
         </article>
 

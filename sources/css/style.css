@@ -3,13 +3,7 @@
 	background : lightblue;
 	flex:1;
 }
-.artAccueil
-{
-	background: lightgrey;
-	text-align : center;
-	flex:3;
-	margin : auto;
-}
+
 .containerAccueil
 {
 	display : flex;
@@ -17,6 +11,19 @@
 	flex-direction: row;
 	justify-content: space-between;
 }
+.artAccueil
+{
+	padding-top : 50px;
+	padding-bottom : 50px;
+	background: grey;
+	text-align : center;
+	flex:3;
+	margin : auto;
+
+	color: white;
+	font: 1.4em bold; 
+}
+
 
 .adminButton
 {
@@ -28,4 +35,14 @@
 .navbar
 {
 	background : darkgrey;
+}
+
+.startButton
+{
+	margin-top:50px;
+	margin-bottom:50px;
+}
+body, .containerAccueil
+{
+	background : lightgrey;
 }
