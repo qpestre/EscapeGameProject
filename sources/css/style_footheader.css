@@ -3,9 +3,12 @@
     width:30px;
 }
 
-.headerBand
+.headerBand 
 {
+
 	text-align: center;
+	background : red;
+
 }
 h1
 {

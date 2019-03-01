@@ -1,20 +1,39 @@
 
-<!-- PRESENTATION -->
+
+
 <div class="container" id="accueil">
-    <section class="row">
-        <article class="col-8-xs col-8-sm col-8-md">
+    <section class="row containerAccueil">
+
+
+        <!-- BANNIERE GAUCHE -->
+        <aside class="col-3-xs col-3-sm col-3-md asideAccueil">
+        </aside>
+
+
+        <!-- PRESENTATION -->
+        <article class="col-6-xs col-6-sm col-6-md artAccueil">
+            <img href="images/articleAccueil.jpg" /> <!-- a trouver -->
             <p>
+                <br />
                 Bonjour, blablabla...<br/>
                 ehfierhfospijdoiesjfsd<br/>
-                diueudhsehdks.
+                diueudhsehdks.<br/>
+                Etes vous prêts à signer pour ça ?<br/>
+                <br/>
+
             </p>
             <p>
-                <a href="jeu.php">START</a><!-- PENSER A METTRE CHOIX JEU.php QUAND MISE EN COMMUN AVEC Clément -->
+                <a href="#" class="btn btn-lg btn-warning"><span class="glyphicon glyphicon-hand-right"></span>   COMMENCER L'AVENTURE</a>
             </p>
         </article>
-        <aside class="col-4-xs col-4-sm col-4-md">
 
+
+        <!-- BANNIERE DROITE -->
+        <aside class="col-3-xs col-3-sm col-3-md asideAccueil">
         </aside>
+
     </section>
 </div>
+
+
 

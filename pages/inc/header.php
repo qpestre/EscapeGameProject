@@ -1,19 +1,20 @@
 
 <header>
-	<nav class="navbar navbar-default " role="navigation">
 		<div class="container">
-			<div class="row">
+			<div class="row headerBand">
 				
 				<!-- Banderolle header -->
-				<div class="col-sm-3 col-xs-3 headerBand">
-					<a href="index.php">
-						<p><h1>VENEZ RESOUDRE <br />ESCAPE GAME</h1></p>
-					</a>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-xs-12">
+						<p class="col-sm-12 col-xs-12 headerBand">
+							<br /><br/><br/>
+							VENEZ RESOUDRE<br/>
+							ESCAPE GAME
+							<br /><br/><br/>
+						</p>
 				</div>
 
 
 			</div>
 		</div>
-	</nav>
 </header>
 

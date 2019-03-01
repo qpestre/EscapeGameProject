@@ -13,7 +13,7 @@ $website_name = 'Escape Game';
 
 if (isset($url[0]) AND $url[0] == 'accueil' AND (!isset($url[1]) OR $url[1] == '')) { // si on a qu un /accueil 
 
-	$title="Escape Game : à l\"aventure";
+	$title="Escape Game : à l'aventure";
 	$call='pages/accueil.php';
 }
 

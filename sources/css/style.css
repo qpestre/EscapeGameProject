@@ -1,0 +1,31 @@
+.asideAccueil
+{
+	background : lightblue;
+	flex:1;
+}
+.artAccueil
+{
+	background: lightgrey;
+	text-align : center;
+	flex:3;
+	margin : auto;
+}
+.containerAccueil
+{
+	display : flex;
+	background:yellow;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.adminButton
+{
+	position: absolute;
+	right : 8px;
+	bottom: 8px;
+}
+
+.navbar
+{
+	background : darkgrey;
+}

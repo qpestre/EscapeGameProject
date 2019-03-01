@@ -6,7 +6,7 @@
         <meta name="description" content="Venez vous confronter aux nombreux escape game ! Tout genre, tout thème."/>
         <!--<meta name="viewport" />-->
 
-        <link href="sources/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="sources/css/bootstrap.css" rel="stylesheet"/>
         <link href="sources/css/style_footheader.css" rel="stylesheet" />
         <link href="sources/css/style.css" rel="stylesheet" />
         
