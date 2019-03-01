@@ -3,6 +3,16 @@
 	background : lightblue;
 	flex:1;
 }
+.asideJeu
+{
+	padding-left:20px;
+	background : darkgrey;
+	flex:1;
+}
+.asideJeu h2
+{
+	color:white;
+}
 
 .containerAccueil
 {

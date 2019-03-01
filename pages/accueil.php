@@ -29,7 +29,7 @@
 
             </p>
             <p>
-                <a href="#" class="btn btn-lg btn-warning startButton"><span class="glyphicon glyphicon-hand-right"></span>   COMMENCER L'AVENTURE</a>
+                <a href="jeu" class="btn btn-lg btn-warning startButton"><span class="glyphicon glyphicon-hand-right"></span>   COMMENCER L'AVENTURE</a>
             </p>
         </article>
 
