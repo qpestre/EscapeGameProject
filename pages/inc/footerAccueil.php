@@ -1,5 +1,8 @@
 </div>
 <footer >
+	<p>
+		<br/>
+	</p>
 	<nav class="navbar navbar-default navbar-fixed-bottom">
 		<p>
 			<br/>
