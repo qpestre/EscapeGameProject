@@ -1,6 +1,8 @@
 
 <?php
 
+require("pages/inc/fonctions.php");
+
 if (isset($_GET['url'])) { //Si URL non vide
 
 	$url = explode('/', $_GET['url']); // Recuperer les parametres entre les slashs
@@ -9,7 +11,9 @@ if (isset($_GET['url'])) { //Si URL non vide
 	$url = ['accueil']; // si url vide charger l accueil
 }
 
+
 $website_name = 'Escape Game';
+
 
 if (isset($url[0]) AND $url[0] == 'accueil' AND (!isset($url[1]) OR $url[1] == '')) { // si on a qu un /accueil 
 

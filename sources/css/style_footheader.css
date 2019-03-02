@@ -1,17 +1,48 @@
-.espace
+
+.asideHeader
 {
-    width:30px;
+	background : lightblue;
 }
 
 .headerBand 
 {
+	background-image : url("../images/headerBand.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	top:0px;
+
+	right : 0%;
+	left : 0%;
+	height :200px;
+	max-width:800px;
+	min-width:400px;
+
+	/*border: 10px black solid;*/
+}
+
+
+.headerBand p
+{
 	text-align: center;
 	font-style: bold;
 	font-size: 1.5em;
-	color : brown;
-	background : lightgreen;
+	color: darkred;
+	min-width:400px;
+	/*border: 10px purple solid;*/
 }
 h1
 {
 	color : red;
+}
+body 
+{ 
+	width: 100%; 
+	text-align: center; 
+} 
+#centerContainer 
+{ 
+	width: 1024px; 
+	margin: 0px auto; 
+	border: 10px purple solid;
 }

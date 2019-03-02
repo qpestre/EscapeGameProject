@@ -1,4 +1,4 @@
-<div class="container" id="accueil">
+<div class="container">
     <section class="row containerAccueil">
 
         <!-- PRESENTATION -->
@@ -18,6 +18,7 @@
                 <h3>Enigme 01</h3> <!-- A automatiser en php -->
                 Description de l'indice 01
                 <!-- Charger description de l'indice en php -->
+                
                 <br/>
                 <hr/>
                 <br/>

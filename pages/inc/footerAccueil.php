@@ -1,4 +1,4 @@
-
+</div>
 <footer >
 	<nav class="navbar navbar-default navbar-fixed-bottom">
 		<p>
