@@ -1,6 +1,6 @@
 
 <?php
-
+//Version Branche quentin
 require("pages/inc/fonctions.php");
 
 if (isset($_GET['url'])) { //Si URL non vide
